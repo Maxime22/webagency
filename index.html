@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebAgency</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="title" content="WebAgency : L'agence de tous vos projets">
+    <meta name="description" content="WebAgency est une agence spécialisée dans la conception web et mobile.
+    Nous sommes là pour permettre de vous créer ou bien de renouveler un site pour que celui-ci soit
+    attractif, responsive, maintenable et bien référencé.">
+    <meta name="keywords" content="web agency, mobile agency, site web, UX design">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" id=linkLogo><img src="images/logo.png" alt="Logo WebAgency" id="imgLogo" /></a>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#projects">Portfolio</a></li>
+                <li><a href="index.html#contacts">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="barsMenu">
+            <i class="fas fa-bars fa-3x" id="btnMenu"></i>
+        </div>
+    </header>
+
+    <section id="slideSection">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="images/slider/bg1.jpg" alt="Fillette Peinture" class="sliderImg">
+                <div class="positionInSlider">
+                    <div class="titleImageSlider">
+                        <h1 class="webTitle">
+                            <span class="blueText">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS
+                        </h1>
+                    </div>
+                    <div class="textImageSlider">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</div>
+                    <a href="index.html#services" class="infoBtn">Plus d'infos</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade" id="slider2">
+                <img src="images/slider/bg2.jpg" alt="Garçon Mégaphone" class="sliderImg">
+                <div class="positionInSlider">
+                    <div class="titleImageSlider">
+                        <h2 class="webTitle">
+                            <span class="blueText">WEBAGENCY</span> : L'AGENCE DE TOUTES VOS
+                            ENVIES
+                        </h2>
+                    </div>
+                    <div class="textImageSlider">Vous avez une envie précise pour la réalisation de travaux digitaux ?
+                        Contactez-nous !</div>
+                    <a href="index.html#projects" class="infoBtn">Plus d'infos</a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div id="myProgress">
+                <div id="divTime"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="services">
+
+        <div class="introServices">
+            <h2>NOS SERVICES</h2>
+            <div class="lineCircle">
+                <div class="blueCircle"></div>
+            </div>
+
+            <p class="paraService">WebAgency est une agence spécialisée dans la conception web et mobile.
+                Nous sommes là pour permettre de vous créer ou bien de renouveler un site pour que celui-ci soit
+                attractif, responsive, maintenable et bien référencé.
+            </p>
+        </div>
+
+        <div class=computerAndServices>
+            <aside>
+                <figure id="ordiFig">
+                    <img src="images/main-feature.png" alt="Image ordinateur" id="ordi">
+                </figure>
+            </aside>
+            <article id="articleService">
+                <table>
+                    <tr>
+                        <td class=iconsTd>
+                            <span class="spanIconTd">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                            </span>
+                            <div class="miniCircle"></div>
+                        </td>
+                        <td class="titleh3AndP">
+                            <h3>UX design</h3>
+                            <p class="explanationServ">Nous créons des designs originaux et personnalisés pour la
+                                meilleure
+                                expérience utilisateur
+                                possible.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class=iconsTd>
+                            <span class="spanIconTd">
+                                <i class="fas fa-cubes fa-2x"></i>
+                            </span>
+                            <div class="miniCircle"></div>
+                        </td>
+                        <td class="titleh3AndP">
+                            <h3>UI design</h3>
+                            <p class="explanationServ">Nous mettons un point d'honneur à créer l'interface la plus
+                                intuitive possible pour que
+                                celle-ci inspire confiance et permette à l’utilisateur d’arriver à son but.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class=iconsTd>
+                            <span class="spanIconTd">
+                                <i class="fas fa-chart-pie fa-2x"></i>
+                            </span>
+                            <div class="miniCircle"></div>
+                        </td>
+                        <td class="titleh3AndP">
+                            <h3>SEO</h3>
+                            <p class="explanationServ">Nous nous tenons à jour régulièrement sur les meilleures
+                                méthodes de
+                                référencement
+                                afin d'améliorer constamment le positionnement de votre site sur les principaux moteurs
+                                de
+                                recherche.</p>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <div class="introProject">
+            <h2>NOS PROJETS</h2>
+            <div class="lineCircle">
+                <div class="blueCircle"></div>
+            </div>
+
+            <p class="paraProject">WebAgency met toute son expertise au service de ses clients,
+                pour faciliter la mise en œuvre et la pérennité de leurs projets.
+            </p>
+        </div>
+
+        <input type="radio" name="control" id="projects1" checked /><label id="label1" for="projects1">All Works</label>
+        <input type="radio" name="control" id="projects2" /><label id="label2" for="projects2">Creative</label>
+        <input type="radio" name="control" id="projects3" /><label id="label3" for="projects3">Corporate</label>
+        <input type="radio" name="control" id="projects4" /><label id="label4" for="projects4">Portfolio</label>
+
+        <div class="containQuarters" id="allQ">
+            <figure class="quarter">
+                <img src="images/portfolio/01.jpg" alt="Lunettes" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Vision</span>
+                        <span>Un projet visible</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/02.jpg" alt="Lapin" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Winky</span>
+                        <span>Des bonus récurrents</span>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/03.jpg" alt="Pompadour" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Pompadour</span>
+                        <span>Des partenaires solides</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/04.jpg" alt="Livres" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">CahierForU</span>
+                        <span>Des explications claires</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/05.jpg" alt="Sacs" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Shoppy</span>
+                        <span>Des solutions multiples</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/06.jpg" alt="Cabine" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Evoluty</span>
+                        <span>Une veille constante</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/07.jpg" alt="Tablette Fusée" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">MobileJet</span>
+                        <span>Un support répandu</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/08.jpg" alt="Outils" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">BackOffice</span>
+                        <span>Une équipe à l'écoute</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+        </div>
+
+        <div class="containQuarters" id="creativeQ">
+            <figure class="quarter">
+                <img src="images/portfolio/01.jpg" alt="Lunettes" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Vision</span>
+                        <span>Un projet visible</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/02.jpg" alt="Lapin" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Winky</span>
+                        <span>Des bonus récurrents</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/04.jpg" alt="Livres" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">CahierForU</span>
+                        <span>Des explications claires</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/05.jpg" alt="Sacs" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Shoppy</span>
+                        <span>Des solutions multiples</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/06.jpg" alt="Cabine" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Evoluty</span>
+                        <span>Une veille constante</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+        </div>
+
+        <div class="containQuarters" id="corporateQ">
+            <figure class="quarter">
+                <img src="images/portfolio/03.jpg" alt="Pompadour" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Pompadour</span>
+                        <span>Des partenaires solides</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/08.jpg" alt="Outils" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">BackOffice</span>
+                        <span>Une équipe à l'écoute</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+        </div>
+
+        <div class="containQuarters" id="portfolioQ">
+            <figure class="quarter">
+                <img src="images/portfolio/04.jpg" alt="Livres" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">CahierForU</span>
+                        <span>Des explications claires</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/05.jpg" alt="Sacs" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Shoppy</span>
+                        <span>Des solutions multiples</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/06.jpg" alt="Cabine" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">Evoluty</span>
+                        <span>Une veille constante</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/07.jpg" alt="Tablette Fusée" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">MobileJet</span>
+                        <span>Un support répandu</span>
+                    </div>
+                </figcaption>
+
+            </figure>
+            <figure class="quarter">
+                <img src="images/portfolio/08.jpg" alt="Outils" class="imgQuarter">
+                <figcaption class="descriptionQuarter">
+                    <i class="far fa-eye"></i>
+                    <div class="formerQuarter">
+                        <span class="titleQuarter">BackOffice</span>
+                        <span>Une équipe à l'écoute</span>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="lastSection">
+        <div class="padTab">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1545475815271" allowfullscreen></iframe>
+            <div class="blueOp"></div>
+        </div>
+        <div id="contacts">
+            <div id="contactInfos">
+                <h3>Contact info</h3>
+                <div>
+                    <strong>WebAgency SAS</strong><br />
+                    25 rue d'Hauteville 75010 Paris<br />
+                    Tél: 01 02 03 04 05<br />
+                </div>
+            </div>
+
+            <form method="post" action="index.html">
+                <input type="text" name="name" placeholder="Nom" required/>
+                <input type="email" name="email" placeholder="Email" required/>
+                <input type="text" name="subject" placeholder="Subject" required/>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <input type="submit" class="button" name="submit" value="Send Message" required>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/slideshow.js"></script>
+    <script src="js/displaymenu.js"></script>
+
+</body>
+
+</html>
